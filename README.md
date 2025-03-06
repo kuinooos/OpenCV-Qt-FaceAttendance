@@ -1,4 +1,3 @@
-```markdown
 # FaceAttendance - 人脸识别考勤系统
 
 ## 项目简介
@@ -35,7 +34,6 @@ FaceAttendance/
 │   └── server.db           # SQLite 数据库文件
 ├── LICENSE                # 开源协议
 └── README.md              # 项目说明文档
-```
 
 ## 核心功能
 ### 客户端功能
