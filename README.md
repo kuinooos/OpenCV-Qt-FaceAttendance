@@ -18,7 +18,7 @@ FaceAttendance 是一个基于 Qt 和 OpenCV 的跨平台人脸识别考勤系�
 |            | TCP/IP                    | 网络通信协议             |
 
 ## 项目结构
-bash
+```bash
 FaceAttendance/
 ├── client/                # 客户端代码
 │   ├── FaceAttendance.pro  # Qt 项目配置文件
@@ -34,7 +34,7 @@ FaceAttendance/
 │   └── server.db           # SQLite 数据库文件
 ├── LICENSE                # 开源协议
 └── README.md              # 项目说明文档
-
+```
 ## 核心功能
 ### 客户端功能
 - **实时视频流显示**
@@ -57,7 +57,7 @@ FaceAttendance/
   - 支持百万级人脸库快速检索。
 - **数据存储**
   - 采用 SQLite 存储考勤信息。
-  sql
+  ```sql
   CREATE TABLE employee (
       faceId INTEGER PRIMARY KEY,
       employeeId VARCHAR(20),
@@ -70,7 +70,7 @@ FaceAttendance/
       employeeId VARCHAR(20),
       time DATETIME DEFAULT CURRENT_TIMESTAMP
   );
-  
+  ```
 
 ## 使用说明
 ### 环境配置
